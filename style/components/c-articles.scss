@@ -1,0 +1,61 @@
+.c-articles {
+  display: flex;
+
+  &__card {
+    height: 300px;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    &--seis {
+      background: url(../images/products-blue-image-xl.jpg);
+      background-size: cover;
+
+      &-btn {
+        border: 1px solid #31b2b5;
+      }
+    }
+
+    &--eis {
+      background: url(../images/products-red-image-xl.jpg);
+      background-size: cover;
+
+      &-btn {
+        border: 1px solid #d54557;
+      }
+    }
+
+    &--content {
+      text-align: center;
+      width: 50%;
+      height: 200px;
+      margin: auto;
+      display: grid;
+      grid-template-rows: repeat(1fr);
+      
+      &-head {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.1;
+      }
+
+      &-main {
+        font-size: 13px;
+      }
+
+      &-btn {
+        display: block;
+        padding: .5em 4em;
+        background: transparent;
+        color: #fff;
+        font-size: 11px;
+        margin: auto;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

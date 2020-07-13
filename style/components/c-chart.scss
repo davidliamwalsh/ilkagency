@@ -1,0 +1,78 @@
+.c-chart  {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  
+  hr {
+    position: absolute;
+    background: #d54557;
+    top: 205px;
+    width: 75%;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 85%;
+
+    &--item {
+      text-align: center;
+      display: grid;
+      grid-template-rows: 80px 80px;
+
+      &-head {
+        &__img {
+          height: 50px;
+        }
+
+        &__line {
+          position: relative;
+          text-align: center;
+          
+          &_dot:after {
+            content:"";
+            border-left: 1px dotted #31b2b5;
+          }
+        }
+      }
+
+      &-footer {
+        display: grid;
+        grid-template-rows: 62px 12px;
+      
+        &__intro {
+          &_title {
+            font-size: 20px;
+            color: #31b2b5;
+            font-weight: 400;
+            line-height: 1.2;
+          }
+
+          &_main {
+            font-size: 40px;
+            font-weight: 400;
+            color: #31b2b5;
+            line-height: .75;
+          }
+          
+        }
+
+        &__main {
+          font-size: 60px;
+          color: #31b2b5;
+          font-weight: 400;
+          line-height: 1;
+        }
+
+        &__inset {
+          font-size: 12px;
+          color: #8c8c8c; 
+          line-height: 1.3;
+        }
+      }
+    }
+  }
+}

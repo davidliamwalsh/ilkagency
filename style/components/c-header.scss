@@ -1,0 +1,32 @@
+.c-header {
+  background: url(../images/products-header-return-xl.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  &__box {
+    color: #fff;
+    padding: 0 .5em;
+  }
+
+  &__head {
+    background: #31b2b5;
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  &__main {
+    background: #191919;
+    font-size: 16px;
+
+    span {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.c-form-link {
+  height: 180px;
+  background: #31b2b5;
+  display: flex;
+
+  &__content {
+    color: #fff;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    height: 100px;
+
+    &--intro {
+      font-size: 15px;
+      font-weight: 300;
+    }
+
+    &--btn {
+      font-size: 16px;
+      color: #fff;
+      background: transparent;
+      border: 1px solid #fff;
+      padding: .5em 4em;
+      margin: auto;
+    }
+  }
+}
