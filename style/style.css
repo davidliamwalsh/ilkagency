@@ -21,14 +21,16 @@ textarea:focus, input:focus, button:focus {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .c-navbar__item {
+  .c-navbar__list {
     padding: 1.1em;
-    font-size: 15px;
-    color: #4f4c4d; }
-    .c-navbar__item--active {
+    font-size: 15px; }
+    .c-navbar__list--item {
+      text-decoration: none;
+      color: #4f4c4d; }
+    .c-navbar__list--img {
+      height: 75px; }
+    .c-navbar__list--active {
       color: #5ac1c4; }
-    .c-navbar__item_svg {
-      height: 80px; }
 
 .c-header {
   background: url(../images/products-header-return-xl.jpg);
@@ -249,7 +251,7 @@ textarea:focus, input:focus, button:focus {
         .c-footer__grid--contact-links__network {
           display: flex;
           align-items: flex-end; }
-          .c-footer__grid--contact-links__network_item--svg {
+          .c-footer__grid--contact-links__network_item--img {
             height: 15px; }
           .c-footer__grid--contact-links__network_item:not(:first-child) {
             padding: 0 3em; }

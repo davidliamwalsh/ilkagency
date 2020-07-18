@@ -4,17 +4,21 @@
   justify-content: center;
   align-items: center;
 
-  &__item {
+  &__list {
     padding: 1.1em;
     font-size: 15px;
-    color: #4f4c4d;
+
+    &--item {
+      text-decoration: none;
+      color: #4f4c4d;
+    }
+
+    &--img {
+      height: 75px;
+    }
 
     &--active {
       color: #5ac1c4;
-    }
-
-    &_svg {
-      height: 80px;
     }
   }
 }

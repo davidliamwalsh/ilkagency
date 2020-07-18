@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.min.css">
+  <link rel="stylesheet" href="style/style.css">
   <title>ILK Agency</title>
 </head>
 <body>
@@ -18,34 +18,13 @@
 
         For the custom logo I would create a variable $logo = function if statement to get_attachment_image_src( get_theme_mod( 'custom_logo' ), 'full' ), calling the variable will display the image logo
       -->
-      <li class="c-navbar__item">Projects</li>
-      <li class="c-navbar__item c-navbar__item--active">Products</li>
+      <li class="c-navbar__list"><a class="c-navbar__list--item" href="#">Projects</a></li>
+      <li class="c-navbar__list"><a class="c-navbar__list--item  c-navbar__list--active" href="#">Products</a></li>
       <li>
-        <?xml version="1.0" encoding="utf-8"?>
-        <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-        <svg class="c-navbar__item c-navbar__item_svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          viewBox="0 0 102.6 78.9" style="enable-background:new 0 0 102.6 78.9;" xml:space="preserve">
-        <style type="text/css">
-          .st2{fill:#33B2B5;}
-        </style>
-        <g>
-          <path class="st2" d="M83.8,32.2c0.7,2.7,1.1,5.6,1.1,8.6c0,9.1-3.7,17.4-9.7,23.4c-6,6-14.3,9.7-23.4,9.7c-9,0-17.2-3.6-23.2-9.5
-            c-0.4,0-0.9,0-1.3,0c-1.4,0-2.8-0.1-4.2-0.2c6.8,8.3,17.2,13.7,28.8,13.7c20.5,0,37.1-16.6,37.1-37.1c0-4.7-0.9-9.3-2.5-13.4
-            C85.4,28.9,84.5,30.5,83.8,32.2"/>
-          <path class="st2" d="M21.6,54.2c-1.8-4.1-2.9-8.7-2.9-13.4c0-9.1,3.7-17.4,9.7-23.4c6-6,14.3-9.7,23.4-9.7c9.1,0,17.4,3.7,23.4,9.7
-            c1.3,1.3,2.5,2.7,3.5,4.2c0.8-1.1,1.7-2.2,2.6-3.2C74.6,9.5,63.9,3.7,51.8,3.7c-20.5,0-37.1,16.6-37.1,37.1c0,4.5,0.8,8.8,2.3,12.8
-            C18.5,53.8,20.1,54.1,21.6,54.2"/>
-          <path class="st2" d="M47.8,46.8c-0.1-0.2-0.3-0.4-0.4-0.6c-2.2-3.4-3.3-7.5-3.6-11.5c-0.2-1.8-0.3-3.8,0.1-5.6
-            c0.9-4.1,6-4.7,7.7-1.1C54.2,33.6,51.1,42,47.8,46.8 M102,11.7l-2-3.5l-2.8,1.6c-0.1,0-0.2,0.1-0.3,0.1
-            c-7.9,4.8-14.3,9.3-18.6,17.7c-3.1,6-4.9,12.7-8.7,18.3c-4.8,6.9-13,8.6-19,3.9c2.7-3.7,4.5-8,5.2-12.4c0.8-4.8,0.7-11.7-3.4-15.2
-            c-4.3-3.6-10-0.6-11.9,4.1c-2.3,5.7-0.7,13.8,1.8,19.2c0.8,1.8,1.8,3.3,2.9,4.6c-10,10.9-24.2,7.4-37.6,4.5l0-0.1l-3.9-0.8L3,57.7
-            L4.7,58c0.1,0,0.2,0.1,0.3,0.1c14.6,3,29.9,7.6,42-4.1c0.4-0.4,0.8-0.8,1.1-1.2c7.4,5.8,18.1,4.8,24.5-4.2
-            c4.9-6.9,6.8-15.7,11.4-22.8c3.5-5.5,9-8.8,14.5-12.1l0,0L102,11.7z"/>
-        </g>
-        </svg>
+        <a href="#"><img class="c-navbar__list--img" src="header-logo.svg" alt="logo"></a>
       </li>
-      <li class="c-navbar__item">About</li>
-      <li class="c-navbar__item">Contact</li>
+      <li class="c-navbar__list"><a class="c-navbar__list--item" href="#">About</a></li>
+      <li class="c-navbar__list"><a class="c-navbar__list--item" href="#">Contact</a></li>
     </div>
   
 
@@ -204,41 +183,10 @@
             </div>
             <div class="c-footer__grid--contact-links__network">
               <li class="c-footer__grid--contact-links__network_item">
-                <?xml version="1.0" encoding="utf-8"?>
-                <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                <svg class="c-footer__grid--contact-links__network_item--svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 233.6 189.9" style="enable-background:new 0 0 233.6 189.9;" xml:space="preserve">
-                <style type="text/css">
-                  .st0{fill:#FFFFFF;}
-                </style>
-                <g>
-                  <path class="st0" d="M4.3,165.6c20.5,13,44.9,20.6,71,20.6c73.3,0,132.8-59.5,132.8-132.8c0-1.8,0-3.6-0.1-5.5
-                    c2.6-2.1,19.1-15.2,23.1-23.7c0,0-13.3,5.5-26.4,6.8h-0.1l0.1,0c1.2-0.8,18-12.2,20.3-25.9c0,0-9.4,5-22.6,9.4
-                    c-2.2,0.7-4.5,1.4-6.8,2.1c-8.5-9.1-20.6-14.7-34-14.7c-25.7,0-46.6,20.9-46.6,46.6c0,3.6,0.4,7.2,1.2,10.5
-                    c-3.6-0.1-58.4-3.2-95.6-48.4c0,0-22.3,30.4,13.3,61.7c0,0-10.8-0.4-20.1-6c0,0-3.4,36.8,36.8,46.3c0,0-7.9,3-20.5,0.9
-                    c0,0,7.1,29.8,42.8,32.6C72.7,146.1,44.4,171.6,4.3,165.6L4.3,165.6z"/>
-                </g>
-                </svg>
+                <img class="c-footer__grid--contact-links__network_item--img" src="twitter-icon.svg" alt="">
               </li>
               <li class="c-footer__grid--contact-links__network_item">
-                <?xml version="1.0" encoding="utf-8"?>
-                <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                <svg class="c-footer__grid--contact-links__network_item--svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 205.6 202.9" style="enable-background:new 0 0 205.6 202.9;" xml:space="preserve">
-                <style type="text/css">
-                  .st0{fill:#FFFFFF;}
-                </style>
-                <g>
-                  <path class="st0" d="M26.2,3.1c13,0,23.7,10.7,23.6,23.8c0,13.7-11.4,23.9-23.8,23.7C13.4,50.8,2.3,40.2,2.3,26.8
-                    C2.3,13.7,13.1,3.1,26.2,3.1"/>
-                  <path class="st0" d="M40,200.4H12.2c-3.6,0-6.5-2.9-6.5-6.5V75.2c0-3.6,2.9-6.5,6.5-6.5H40c3.6,0,6.5,2.9,6.5,6.5v118.7
-                    C46.5,197.5,43.6,200.4,40,200.4"/>
-                  <path class="st0" d="M200,110.3c0-24.9-20.1-45-45-45h-7.1c-13.6,0-25.6,6.8-32.8,17.2c-0.8,1.1-1.5,2.3-2.2,3.5
-                    c-0.2,0-0.4,0-0.4,0V71.4c0-1.5-1.2-2.7-2.7-2.7H75.1c-1.5,0-2.7,1.2-2.7,2.7v126.3c0,1.5,1.2,2.7,2.7,2.7l35.4,0
-                    c1.5,0,2.7-1.2,2.7-2.7v-73c0-12.6,10.1-23.1,22.7-23.2c6.4-0.1,12.3,2.5,16.5,6.7c4.2,4.2,6.7,9.9,6.7,16.2v73.3
-                    c0,1.5,1.2,2.7,2.7,2.7l35.5,0c1.5,0,2.7-1.2,2.7-2.7V110.3z"/>
-                </g>
-                </svg>
+                <img class="c-footer__grid--contact-links__network_item--img" src="linked-icon.svg" alt="" srcset="">
               </li>
             </div>
           </div>
